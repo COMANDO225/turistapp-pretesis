@@ -1,0 +1,52 @@
+{
+	"navbar": {
+		"searchBarInactive": {
+			"cualquierPartedePeru": "Где угодно в Перу",
+			"cualquierFecha": "В любое время",
+			"agregarTuristas": "Сколько человек?"
+		},
+		"searchBarActive": {
+			"dondeQuieresIr": "Куда бы вы хотели поехать?",
+			"desde": "От",
+			"desdeLabel": "Добавить дату начала",
+			"hasta": "До",
+			"hastaLabel": "Добавить дату окончания",
+			"cuantos": "Сколько человек?",
+			"cuantosLabel": "Добавить количество гостей",
+			"buscar": "Поиск"
+		},
+		"botonPresumido": "Похвастайтесь своим местом",
+		"userMenu": {
+			"userMenuNoAutenticado": {
+				"registrarte": "Зарегистрироваться",
+				"iniciarSesion": "Войти",
+				"ayuda": "Нужна помощь?"
+			},
+			"userMenuAutenticado": {
+				"perfil": "Профиль",
+				"reservas": "Бронирования",
+				"cerrarSesion": "Выйти"
+			}
+		}
+	},
+	"HomePage": {
+		"titulo": "Привет, мир!"
+	},
+	"Modales": {
+		"modalLocalidad": {
+			"idiomaRegion": {
+				"tab": "Язык и регион",
+				"titulo": "Настройки языка и региона",
+				"description": "Эти настройки влияют на язык сайта и контент, который вы видите.",
+				"inputLabel": "Поиск языка",
+				"eligeIdioma": "Выберите язык"
+			},
+			"Moneda": {
+				"tab": "Валюта"
+			},
+			"Configuracion": {
+				"tab": "Настройки"
+			}
+		}
+	}
+}

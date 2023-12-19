@@ -1,0 +1,52 @@
+{
+	"navbar": {
+		"searchBarInactive": {
+			"cualquierPartedePeru": "Qualquer lugar no Peru",
+			"cualquierFecha": "A qualquer momento",
+			"agregarTuristas": "Quantos são?"
+		},
+		"searchBarActive": {
+			"dondeQuieresIr": "Para onde você quer ir?",
+			"desde": "De",
+			"desdeLabel": "Adicionar data de início",
+			"hasta": "Até",
+			"hastaLabel": "Adicionar data de término",
+			"cuantos": "Quantos são?",
+			"cuantosLabel": "Adicionar número de hóspedes",
+			"buscar": "Buscar"
+		},
+		"botonPresumido": "Mostre seu canto",
+		"userMenu": {
+			"userMenuNoAutenticado": {
+				"registrarte": "Registre-se",
+				"iniciarSesion": "Iniciar sessão",
+				"ayuda": "Precisa de ajuda?"
+			},
+			"userMenuAutenticado": {
+				"perfil": "Perfil",
+				"reservas": "Reservas",
+				"cerrarSesion": "Sair"
+			}
+		}
+	},
+	"HomePage": {
+		"titulo": "Olá, mundo!"
+	},
+	"Modales": {
+		"modalLocalidad": {
+			"idiomaRegion": {
+				"tab": "Idioma e região",
+				"titulo": "Configurações de idioma e região",
+				"description": "Essas configurações afetam o idioma do site e o conteúdo que você vê.",
+				"inputLabel": "Procurar idioma",
+				"eligeIdioma": "Escolha um idioma"
+			},
+			"Moneda": {
+				"tab": "Moeda"
+			},
+			"Configuracion": {
+				"tab": "Configurações"
+			}
+		}
+	}
+}

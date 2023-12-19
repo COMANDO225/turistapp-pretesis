@@ -1,0 +1,15 @@
+export const locales = [
+	"es-PE",
+	"es-ES",
+	"en-US",
+	"en-GB",
+	"fr-FR",
+	"de-DE",
+	"it-IT",
+	"pt-BR",
+	"pt-PT",
+	"ja-JP",
+	"zh-CN",
+	"zh-TW",
+	"ru-RU",
+];

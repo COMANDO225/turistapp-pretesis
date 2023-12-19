@@ -1,0 +1,89 @@
+.wrapper {
+	@apply relative w-full grid gap-3;
+	.container {
+		@apply flex min-w-[12.5rem] justify-center w-full items-center relative h-14;
+		.bg {
+			@apply rounded absolute;
+			background-color: rgba(128, 128, 128, 0.7);
+			width: calc(100%);
+			height: calc(100%);
+			&[data-error="true"] {
+				background-color: rgb(239 68 68);
+			}
+		}
+		.label {
+			@apply absolute z-[1] truncate left-4 transition-all duration-200 ease-linear pointer-events-none;
+			// color: rgba(255, 255, 255, 0.7);
+		}
+		input {
+			@apply relative rounded leading-6 pt-6 px-4 pb-2 w-full focus:outline-none focus:ring-0 text-[15px] h-full;
+			background: linear-gradient(
+					to top,
+					transparent,
+					rgb(var(--background_end_rgb))
+				)
+				rgb(var(--background_start_rgb));
+			border: 2px solid transparent;
+			background-clip: padding-box;
+			z-index: 1;
+			&:-webkit-autofill,
+			&:-webkit-autofill:hover,
+			&:-webkit-autofill:focus,
+			&:-webkit-autofill:active {
+				-webkit-text-fill-color: var(--text);
+				-webkit-box-shadow: 0 0 0 30px rgba(59, 131, 246, 0.126) inset !important;
+
+				// -webkit-background-clip: text;
+				transition: background-color 5s ease-in-out 0s;
+				// box-shadow: inset 0 0 20px 20px #23232329;
+			}
+			&::-webkit-input-placeholder {
+				color: transparent !important;
+			}
+			&:-moz-placeholder {
+				color: transparent !important;
+			}
+		}
+
+		.input:focus ~ .label,
+		.input:active ~ .label,
+		.input:not(:placeholder-shown) ~ .label {
+			@apply -translate-y-3 text-xs;
+			// color: rgba(255, 255, 255, 1);
+		}
+		.input:hover ~ .bg {
+			@apply bg-blue-500;
+			&[data-error="true"] {
+				background: rgb(239 68 68);
+			}
+		}
+		.input:focus ~ .bg,
+		.input:active ~ .bg,
+		.input:not(:placeholder-shown) ~ .bg {
+			// width: calc(100% + 4px);
+			// height: calc(100% + 4px);
+			background: var(--byAlmeydacolor);
+			// transition: all 0.5s ease-in-out;
+			background-size: 400%;
+			animation: animate 10s linear infinite;
+			// filter: blur(20px);
+			&[data-error="true"] {
+				background: rgb(239 68 68);
+			}
+		}
+		&[data-error="true"] {
+			.label {
+				color: rgb(239 68 68);
+			}
+		}
+	}
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0%;
+	}
+	100% {
+		background-position: 400%;
+	}
+}

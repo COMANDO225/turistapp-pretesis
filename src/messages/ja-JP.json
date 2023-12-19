@@ -1,0 +1,52 @@
+{
+	"navbar": {
+		"searchBarInactive": {
+			"cualquierPartedePeru": "ペルーのどこでも",
+			"cualquierFecha": "いつでも",
+			"agregarTuristas": "何人ですか？"
+		},
+		"searchBarActive": {
+			"dondeQuieresIr": "どこに行きたいですか？",
+			"desde": "出発地",
+			"desdeLabel": "開始日を追加",
+			"hasta": "終了日",
+			"hastaLabel": "終了日を追加",
+			"cuantos": "何人ですか？",
+			"cuantosLabel": "ゲスト数を追加",
+			"buscar": "検索"
+		},
+		"botonPresumido": "あなたの場所を披露",
+		"userMenu": {
+			"userMenuNoAutenticado": {
+				"registrarte": "サインアップ",
+				"iniciarSesion": "ログイン",
+				"ayuda": "ヘルプが必要ですか？"
+			},
+			"userMenuAutenticado": {
+				"perfil": "プロフィール",
+				"reservas": "予約",
+				"cerrarSesion": "ログアウト"
+			}
+		}
+	},
+	"HomePage": {
+		"titulo": "こんにちは、世界！"
+	},
+	"Modales": {
+		"modalLocalidad": {
+			"idiomaRegion": {
+				"tab": "言語と地域",
+				"titulo": "言語と地域の設定",
+				"description": "これらの設定はウェブサイトの言語と表示コンテンツに影響します。",
+				"inputLabel": "言語を検索",
+				"eligeIdioma": "言語を選択"
+			},
+			"Moneda": {
+				"tab": "通貨"
+			},
+			"Configuracion": {
+				"tab": "設定"
+			}
+		}
+	}
+}

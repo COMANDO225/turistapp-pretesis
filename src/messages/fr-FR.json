@@ -1,0 +1,52 @@
+{
+	"navbar": {
+		"searchBarInactive": {
+			"cualquierPartedePeru": "N'importe où au Pérou",
+			"cualquierFecha": "N'importe quand",
+			"agregarTuristas": "Combien êtes-vous ?"
+		},
+		"searchBarActive": {
+			"dondeQuieresIr": "Où voulez-vous aller ?",
+			"desde": "De",
+			"desdeLabel": "Ajouter une date de début",
+			"hasta": "À",
+			"hastaLabel": "Ajouter une date de fin",
+			"cuantos": "Combien êtes-vous ?",
+			"cuantosLabel": "Ajouter des touristes",
+			"buscar": "Rechercher"
+		},
+		"botonPresumido": "Montrez votre coin",
+		"userMenu": {
+			"userMenuNoAutenticado": {
+				"registrarte": "S'inscrire",
+				"iniciarSesion": "Se connecter",
+				"ayuda": "Besoin d'aide ?"
+			},
+			"userMenuAutenticado": {
+				"perfil": "Profil",
+				"reservas": "Réservations",
+				"cerrarSesion": "Se déconnecter"
+			}
+		}
+	},
+	"HomePage": {
+		"titulo": "Bonjour le monde !"
+	},
+	"Modales": {
+		"modalLocalidad": {
+			"idiomaRegion": {
+				"tab": "Langue et région",
+				"titulo": "Paramètres de langue et de région",
+				"description": "Ces paramètres affectent la langue du site web et le contenu que vous voyez.",
+				"inputLabel": "Rechercher une langue",
+				"eligeIdioma": "Choisissez une langue"
+			},
+			"Moneda": {
+				"tab": "Devise"
+			},
+			"Configuracion": {
+				"tab": "Paramètres"
+			}
+		}
+	}
+}

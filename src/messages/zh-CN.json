@@ -1,0 +1,52 @@
+{
+	"navbar": {
+		"searchBarInactive": {
+			"cualquierPartedePeru": "秘鲁的任何地方",
+			"cualquierFecha": "随时",
+			"agregarTuristas": "有多少人？"
+		},
+		"searchBarActive": {
+			"dondeQuieresIr": "您想去哪里？",
+			"desde": "从",
+			"desdeLabel": "添加开始日期",
+			"hasta": "至",
+			"hastaLabel": "添加结束日期",
+			"cuantos": "有多少人？",
+			"cuantosLabel": "添加客人数量",
+			"buscar": "搜索"
+		},
+		"botonPresumido": "炫耀您的地方",
+		"userMenu": {
+			"userMenuNoAutenticado": {
+				"registrarte": "注册",
+				"iniciarSesion": "登录",
+				"ayuda": "需要帮助吗？"
+			},
+			"userMenuAutenticado": {
+				"perfil": "个人资料",
+				"reservas": "预订",
+				"cerrarSesion": "注销"
+			}
+		}
+	},
+	"HomePage": {
+		"titulo": "你好，世界！"
+	},
+	"Modales": {
+		"modalLocalidad": {
+			"idiomaRegion": {
+				"tab": "语言和地区",
+				"titulo": "语言和地区设置",
+				"description": "这些设置会影响网站的语言和您所看到的内容。",
+				"inputLabel": "搜索语言",
+				"eligeIdioma": "选择一种语言"
+			},
+			"Moneda": {
+				"tab": "货币"
+			},
+			"Configuracion": {
+				"tab": "设置"
+			}
+		}
+	}
+}

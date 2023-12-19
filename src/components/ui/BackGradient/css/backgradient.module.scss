@@ -1,0 +1,61 @@
+@property --rotate {
+	syntax: "<angle>";
+	initial-value: 165deg;
+	inherits: false;
+}
+.backg {
+	background-image: linear-gradient(
+		var(--rotate),
+		#1276fe,
+		#12a0ff,
+		#0adaff,
+		#12a0ff,
+		#1276fe
+	);
+	background-size: 100%;
+	background-position: center;
+	animation: spin 3s linear infinite;
+	transition: all 0.3s ease;
+}
+
+.backg::before {
+	background-image: linear-gradient(
+		var(--rotate),
+		#1276fe,
+		#12a0ff,
+		#0adaff,
+		#12a0ff,
+		#1276fe
+	);
+	animation: spin 3s linear infinite;
+	transition: all 0.3s ease;
+}
+
+.backg[data-state="inactive"] {
+	background: hsl(
+		var(--nextui-default-300) / var(--nextui-default-300-opacity, 1)
+	) !important;
+	transition: all 0.3s ease;
+	&::before {
+		content: none;
+		transition: all 0.3s ease;
+	}
+}
+
+.backg[data-state="sending"] {
+	animation-duration: 1.25s;
+	animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1.5);
+	&::before {
+		animation-duration: 1.25s;
+		animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+	}
+}
+
+@keyframes spin {
+	0% {
+		--rotate: 0deg;
+	}
+	100% {
+		--rotate: 360deg;
+	}
+}
